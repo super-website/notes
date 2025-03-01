@@ -1,0 +1,34 @@
+[
+  {
+    "name": "armchair",
+    "review": "awesome Chair",
+    "rating": 4.8
+  },
+  {
+    "name": "bar stool",
+    "review": "liddy",
+    "rating": 4.6
+  },
+  {
+    "name": "dining table",
+    "review": "ikea",
+    "rating": 4.55
+  },
+  {
+    "name": "emperor bed",
+    "price": 23,
+    "review": "ikea"
+  },
+  {
+    "name": "entertainment center",
+    "price": 59,
+    "featured": true,
+    "review": "caressa"
+  },
+  {
+    "name": "high-back bench",
+    "price": 39,
+    "featured": true,
+    "review": "ikea"
+  }
+]

@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+.job-container {
+  display: flex;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn-container button {
+  margin: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid lightblue;
+  outline: 0;
+  transition: 0.3s ease;
+}
+.btn-container button:hover {
+  background-color: lightblue;
+  border: 0;
+}
+.jobs {
+  margin: 2rem 0;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+.jobs h2 {
+  color: gray;
+  margin: 10px 0;
+}
+
+.jobs h3 {
+  color: rebeccapurple;
+}
+.jobs h4 {
+  color: orange;
+}
+
+.loading {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid rebeccapurple;
+  background-color: transparent;
+  margin-left: 10px;
+  animation: animate 1s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
